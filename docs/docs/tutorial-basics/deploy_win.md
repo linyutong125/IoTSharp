@@ -12,11 +12,11 @@ sidebar_position: 4
 
 # 直接启动
 
-解压压缩包后， 我们可以看到里面 有一个 IoTSharp的Exe文件， 双击运行即可启动。 可以看到控制台启动， 启动后， 即可在浏览器中打开 http://localhost:2927 来访问。 
+解压压缩包后， 我们可以看到里面 有一个 IoTSharp的Exe文件， 双击运行即可启动。 可以看到控制台启动， 启动后， 即可在浏览器中打开 http://localhost:5000 来访问。 
 
 # 注册为服务
 
-IoTSharp 已经支持了Windows服务的方式运行， 如果有需要注册为Widnows服务， 你需要首先了解 https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/sc-create  ， 使用sc 命令创建 为Windows服务，然后打开 http://localhost:2927 来访问
+IoTSharp 已经支持了Windows服务的方式运行， 如果有需要注册为Widnows服务， 你需要首先了解 https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/sc-create  ， 使用sc 命令创建 为Windows服务，然后打开 http://localhost:5000 来访问
 
  
 
@@ -37,7 +37,7 @@ Org: `iotsharp`  Bucket: `iotsharp-bucket`
 
 ## 注册
 
-Chrome浏览器访问 `http://localhost:2927/`
+Chrome浏览器访问 `http://localhost:5000/`
 
 ![注册](/img/iotsharp/iotsharp-regeist.png)
 
